@@ -4,6 +4,16 @@ You can use the [editor on GitHub](https://github.com/Travistico/Travistico.gith
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+### Hansha Janurary 02/2019
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
+</code></pre></div></div>
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
