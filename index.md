@@ -14,6 +14,7 @@ var isSquare = function(n){
 //Observations a number is a square one if the square root of it is an integer.
 //Steps if n>=0 && the square root of it is a whole number return true, else false.
   return n<0 ? false : Number.isInteger(Math.sqrt(n)) ? true : false;
+  }
 </code></pre></div></div>
 
 ### Markdown
