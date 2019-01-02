@@ -5,13 +5,15 @@ You can use the [editor on GitHub](https://github.com/Travistico/Travistico.gith
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Hansha Janurary 02/2019
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
-```
+
+Task
+Given an integral number, determine if it's a square number:
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>javascript
+var isSquare = function(n){
+//Observations a number is a square one if the square root of it is an integer.
+//Steps if n>=0 && the square root of it is a whole number return true, else false.
+  return n<0 ? false : Number.isInteger(Math.sqrt(n)) ? true : false;
 </code></pre></div></div>
 
 ### Markdown
